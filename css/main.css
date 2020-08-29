@@ -94,7 +94,14 @@ font-family: 'Overpass Mono', monospace;
     font-size: 15px;
     margin-bottom: 20px;
 }
+.img__hero{
+    position: absolute;
+    content: '';
+    right:  20%;
+    top: 20%;
+    width: 400px;
 
+}
 .hero__title{
 
     font-size: 60px;
