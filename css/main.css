@@ -1,0 +1,75 @@
+body{
+
+
+    font-size: 16px;
+    color: #FBFBFB;
+}
+
+
+/* font-family: 'Lato', sans-serif;
+
+font-family: 'Noto Sans JP', sans-serif;
+
+font-family: 'Overpass Mono', monospace;
+
+ */
+
+
+/* COLOR PRIMARI #FBFBFB */
+/* DETALLES COLOR #DABFA0 */
+
+.container{
+   
+}
+.header{
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #1E1E1E;
+    padding: 0px 80px;
+    height: 100px;
+  
+      
+   
+}
+.header__logo{
+    width: 80PX;
+    height: 80px;
+}
+.nav{
+    display: flex;
+}
+.menu{
+    display: flex;
+}
+.header__list{
+     margin: 0px 15px;
+}
+.header__link{
+     cursor: pointer;
+     color:  #FBFBFB;
+     cursor: pointer;
+     font-family: 'Lato', sans-serif;
+}
+
+.header__link:hover{
+   
+    color:  #DABFA0;
+}
+
+.menu__active{
+    color:  #DABFA0;
+}
+.icon_nav{
+    margin: 0px 10px;
+    cursor: pointer;
+}
+
+/* =============================hero============================= */
+
+
+.hero{
+    background: #1E1E1E;
+}
+
