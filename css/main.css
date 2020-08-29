@@ -3,6 +3,7 @@ body{
 
     font-size: 16px;
     color: #FBFBFB;
+    font-family: 'Noto Sans JP', sans-serif;
 }
 
 
@@ -51,6 +52,7 @@ font-family: 'Overpass Mono', monospace;
      color:  #FBFBFB;
      cursor: pointer;
      font-family: 'Lato', sans-serif;
+     transition: all 0.5s;
 }
 
 .header__link:hover{
@@ -64,12 +66,180 @@ font-family: 'Overpass Mono', monospace;
 .icon_nav{
     margin: 0px 10px;
     cursor: pointer;
+    transition: all 0.5s;
 }
-
+.icon_nav:hover{
+  
+    color: #DABFA0;
+   
+}
 /* =============================hero============================= */
 
 
 .hero{
     background: #1E1E1E;
+    height: 400px;
+    display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: flex-start;
+     padding: 0px 200px;
 }
 
+.hero__text{
+
+    font-family: 'Overpass Mono', monospace;
+    letter-spacing: 10px;
+    text-transform: uppercase;
+    font-size: 15px;
+    margin-bottom: 20px;
+}
+
+.hero__title{
+
+    font-size: 60px;
+    font-family: 'Noto Sans JP', sans-serif;
+    line-height: 50px;
+    margin-bottom: 30px;
+  
+
+    
+}
+.hero__title--detalls{
+    font-family: 'Charm', cursive;
+    color: #DABFA0;
+   
+}
+.hero__btn{
+
+    color: #FBFBFB;
+    text-transform: uppercase;
+    background: #333333;
+    padding: 10px 10px;
+     border: 1px solid #FBFBFB;
+     font-family: 'Noto Sans JP', sans-serif;
+     letter-spacing: 2px;
+     font-size: 10px;
+     font-weight: blod;
+     transition: all 0.5s;
+}
+.hero__btn:hover{
+
+    background: #DABFA0;
+    color: #FBFBFB;
+}
+
+/* =============================aboud============================= */
+.aboud{
+    background: #333333;
+    padding: 0px 200px;
+}
+
+.aboud__text{
+
+    font-family: 'Overpass Mono', monospace;
+    letter-spacing: 10px;
+    text-transform: uppercase;
+    font-size: 15px;
+    
+    padding-top: 40px ;
+    text-align: center;
+}
+
+.txt__h2{
+    text-align: center;
+    color: #DABFA0;
+    font-size: 40px;
+    font-family: 'Noto Sans JP', sans-serif;
+    line-height: 50px;
+
+}
+
+.aboud__content{
+
+    display: flex;
+}
+.aboud_container{
+    margin: 30px 0px;
+    width: 50%;
+}
+.aboud_txt{
+
+
+    font-family: 'Lato', sans-serif;
+   
+    margin-bottom: 20px;
+    line-height: 25px;
+   
+}
+.aboud_detalls{
+    color: #DABFA0;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.aboud_btn{
+    
+    color: #FBFBFB;
+    font-family: 'Lato', sans-serif;
+    cursor: pointer;
+    margin: 10px 0px;
+    
+}
+.aboud_icons{
+    color: #DABFA0;
+    margin-left: 5px;
+}
+
+
+.aboud__skills{
+
+    margin: 30px 0px;
+    margin-left: 0px;
+    width: 50%;
+    margin-left: 70px;
+}
+
+.adoud__title{
+    text-transform: uppercase;
+    margin: 10px 0px;
+    font-weight: normal;
+}
+
+.progress{
+    width: 400px;
+    height: 8px;
+    background: #616161;
+    position: relative;
+   
+}
+.bar{
+    
+   
+    position: absolute;
+    content: '';
+    width: 250px;
+    height: 8px;
+    background: #DABFA0;
+    top: 0;
+    left: 0;
+
+  
+}
+.tarjet{
+     
+    position: absolute;
+    content: '';
+    background: #DABFA0;
+    width: 50px;
+    height: 30px;
+    color: #FBFBFB;
+    top: -34px;
+    left: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tarjet::before{
+   
+}
