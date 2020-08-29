@@ -3,7 +3,7 @@
 
 ##1¿Para qué sirve CSS?
 
-Es Una tecnología utilizada para dotar de cualidades visuales y estéticas a una página web nos sirve para darle una diseño atractivo mejorar la experiencia del usuario ya que al navegar el diseño será más organizado , si no usaríamos css  nos encontraríamos con un diseño poco amigable esto repercutiría en el abandono de nuestros usuarios de nuestra web .
+Es Una tecnología utilizada para dotar de cualidades visuales y estéticas a una página web nos sirve para darle una diseño atractivo mejorar la experiencia del usuario ya que al navegar el diseño será más organizado , si no usaríamos css  nos encontraríamos con un diseño poco amigable esto repercutiría en el abandono de nuestros usuarios de nuestra web 
 
 
 ##¿Cuáles son los contras de no usar CSS?
